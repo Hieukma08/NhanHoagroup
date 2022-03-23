@@ -22,6 +22,7 @@
 # 1.3 Phân loại VLAN
 
 - Default VLAN : 
+
 ![2](https://user-images.githubusercontent.com/87790053/159647810-4bbab836-98fb-4deb-94fe-987166ca7b08.png)
  + Default VLAN 
  + Default NAtive VLAN 
