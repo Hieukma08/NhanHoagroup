@@ -15,18 +15,19 @@ Tìm hiểu hai mô hình mạng OSI và mô hình TCP/IP
 
 2.	Mô hình TCP/IP
 
-Mô hình TCP/IP cũng là một mô hình mô phỏng hại hoạt động của 1 hệ thống mạng và chức năng của từng tầng trong giao thức .
+•	Mô hình TCP/IP cũng là một mô hình mô phỏng hại hoạt động của 1 hệ thống mạng và chức năng của từng tầng trong giao thức .
 
-Khác với mô hình TCP/IP được chia làm 4 tầng nhưng chức năng cũng giống như mô hình OSI.
+•	Khác với mô hình TCP/IP được chia làm 4 tầng nhưng chức năng cũng giống như mô hình OSI .
 
-Các tầng mô hình TCP/IP 
+•	Các tầng mô hình TCP/IP 
 
-Application Layer : Giúp các máy tính giao tiếp dữ liệu thông qua các dịch vụ mạng khác nhau , đồng thời cũng giúp xác định được đường đi đúng cho 1 gói tin .
+•	Application Layer : Giúp các máy tính giao tiếp dữ liệu thông qua các dịch vụ mạng khác nhau , đồng thời cũng giúp xác định được đường đi đúng cho 1 gói tin .
 
-Transport layer : xử lý vấn đề giao tiếp giữa các máy chủ trong cùng một mạng hoặc khác mạng được kết nối với nhau thông qua bộ định tuyến.
 
-Tại đây dữ liệu sẽ được phân đoạn, mỗi đoạn sẽ không bằng nhau nhưng kích thước phải nhỏ hơn 64KB. Cấu trúc đầy đủ của một Segment lúc này là Header chứa thông tin điều khiển và sau đó là dữ liệu.
+•	Transport layer : xử lý vấn đề giao tiếp giữa các máy chủ trong cùng một mạng hoặc khác mạng được kết nối với nhau thông qua bộ định tuyến. Tại đây dữ liệu sẽ được phân đoạn, mỗi đoạn sẽ không bằng nhau nhưng kích thước phải nhỏ hơn 64KB. Cấu trúc đầy đủ của một Segment lúc này là Header chứa thông tin điều khiển và sau đó là dữ liệu..
 
-Network Layer : Giúp giao thức truyển tải dữ liệu 1 cách logic đồng thời đóng gói dữ liệu .
+•	Network Layer : Giúp giao thức truyển tải dữ liệu 1 cách logic đồng thời đóng gói dữ liệu.
 
-Physic Layer : Giúp giao tiếp dữ liệu giữa các máy tính bằng đường vật lí.
+
+•	Physic Layer : Giúp giao tiếp dữ liệu giữa các máy tính bằng đường vật lí
+
