@@ -25,33 +25,33 @@
 
 ![2](https://user-images.githubusercontent.com/87790053/159647810-4bbab836-98fb-4deb-94fe-987166ca7b08.png)
 * Default VLAN 
-* Default NAtive VLAN 
-+ Default  Managemant VLAN 
-+ Không thể xóa hoặc không thể đổi tên 
+ * Default NAtive VLAN 
+ + Default  Managemant VLAN 
+ + Không thể xóa hoặc không thể đổi tên 
 
 - Native VLAN 
-+ Chỉ sử dụng cho liên kết trunk
-+ Tất cả frame đều được gán nhãn 802.1Q trừ các frame trên Native Vlan
+ + Chỉ sử dụng cho liên kết trunk
+ + Tất cả frame đều được gán nhãn 802.1Q trừ các frame trên Native Vlan
 - Data VLAN :
-+ Dành riêng cho lưu lượng truy cập của người dùng (email hoặc lướt web)
-+ Vlan 1 là default data Vlan bởi vì tất cả các interface đều chỉ định tới với Vlan này
+ + Dành riêng cho lưu lượng truy cập của người dùng (email hoặc lướt web)
+ + Vlan 1 là default data Vlan bởi vì tất cả các interface đều chỉ định tới với Vlan này
 - Management VLAN
-+ Được sử dụng cho những traffic VTY telet/ssh và không dùng với traffic end user.
-+ Thông thường, Vlan này là SVI cho switch layer 2.
+ + Được sử dụng cho những traffic VTY telet/ssh và không dùng với traffic end user.
+ + Thông thường, Vlan này là SVI cho switch layer 2.
 
 - Voice VLAN : 
 ![18](https://user-images.githubusercontent.com/87790053/159649891-2f4ed910-64e7-4566-9880-6bb538e0e694.png)
 
 - Cần có 1 Vlan riêng vì Voice Traffic yêu cầu:
-+ Băng thông đàm bảo
-+ Ưu tiên QoS cao (Quaility of Service)
-+ Khả năng tránh tắc nghẽn
-+ Trễ ít hơn 150 ms từ nguồn đến đích
-+ Toàn bộ mạng phải được thiết kế để hỗ trợ giọng nói
+ + Băng thông đàm bảo
+ + Ưu tiên QoS cao (Quaility of Service)
+ + Khả năng tránh tắc nghẽn
+ + Trễ ít hơn 150 ms từ nguồn đến đích
+ + Toàn bộ mạng phải được thiết kế để hỗ trợ giọng nói
 
 # 2. VLAN là một môi trường Multi Switched 
 
-<img src="/VLAN/image_vlan/9.png">
+<img src="/VLAN/image_vlan/4.png">
 
 # 3. Cấu hình VLAN
 # 4. VLAN Trunk
