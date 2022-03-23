@@ -73,7 +73,7 @@
 <img src="/VLAN/image_vlan/7.png">
 
   - Header IEE 802.1Q có độ dài 4byte được tạo ra  
-  -Khi tag được tạo ra , FSC phải được tính toàn lại 
+  - Khi tag được tạo ra , FSC phải được tính toàn lại 
   - Khi gửi tới điểm cuối tag này phải được xóa và FCS được tính toàn lại như lúc ban đầu 
 
 | Truonwgf 802.1Q VLAN tag  | Function |
