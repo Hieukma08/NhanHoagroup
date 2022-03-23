@@ -29,5 +29,5 @@ Tìm hiểu hai mô hình mạng OSI và mô hình TCP/IP
 •	Network Layer : Giúp giao thức truyển tải dữ liệu 1 cách logic đồng thời đóng gói dữ liệu.
 
 
-•	Physic Layer : Giúp giao tiếp dữ liệu giữa các máy tính bằng đường vật lí
+•	Physic Layer : Giúp giao tiếp dữ liệu giữa các máy tính bằng đường vật lí.
 
