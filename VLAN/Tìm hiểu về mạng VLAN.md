@@ -115,5 +115,6 @@
 
 <img src="/VLAN/image_vlan/11.png">
 
+
 # 4. VLAN Trunk
 # 5. Dynamic Trunking Protocol
