@@ -146,3 +146,5 @@
   - Native Vlan là 99
   - Tất cả Vlan được tạo trên Switch đều có thể traffic qua trunk này.
 - Để reset một trunk về cấu hình mặc định, ta dùng các câu lệnh:
+
+<img src="/VLAN/image_vlan/17.png"> 
