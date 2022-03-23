@@ -52,6 +52,7 @@
 # 2. VLAN là một môi trường Multi Switched 
 
 <img src="/VLAN/image_vlan/9.png">
+
 # 3. Cấu hình VLAN
 # 4. VLAN Trunk
 # 5. Dynamic Trunking Protocol
