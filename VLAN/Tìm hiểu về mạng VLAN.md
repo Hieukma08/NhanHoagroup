@@ -81,10 +81,11 @@
 |Type |2 byte , Với giá trị hex là 0x8100 , được dùng như 1 tag  Protacal ID|
 | Ưu tiên người dùng  |3 bit|
 | CFI |1 bit , có thể hỗ trợ token ring frame trong Ethernet |
-
+|VLAN ID| 12 bit , hỗ trợ lên đến 4096 VLAN|
 
 
 
 # 3. Cấu hình VLAN
+
 # 4. VLAN Trunk
 # 5. Dynamic Trunking Protocol
