@@ -87,5 +87,33 @@
 
 # 3. Cấu hình VLAN
 
+<img src="/VLAN/image_vlan/9.png">
+
+- catalyst switch 2960 và 3650  hỗ trọ đến 4000 VLAN 
+- Dải Vlan thường từ vlan 1- 1005
+
+  - Sử dụng từ nhỏ đến vừa cho việc kinh doanh
+  - 1002 -1005 được lưu trữ lại
+  - 1, 1002-1005 được tạo tự động và không thể xóa
+  - Lưu trữ tại file vlan.dat trong bộ nhớ flash
+  - VTP có thể đồng bộ giữa 2 switch
+- Dải Vlan mở rộng từ 2006-4095
+
+  - Được sử dụng bởi nhà cung cấp dịch vụ
+  - Luôn chạy ở running-config
+  - Hỗ trợ nhiều feature Vlan hơn
+  - Yêu cầu cấu hình VTP
+- Câu lệnh tạo Vlan
+
+  - Vlan được thông tin chi tiết và lưu trữ tại vlan.dat, nên muốn tạo vlan chúng ta phải vào global config
+
+<img src="/VLAN/image_vlan/10.png">
+
+- Câu lệnh assign port cho vlan.
+
+  - Bất khì vlan nào được tạo, ta đều có thể assign cho nó chính xác 1 interface.
+
+<img src="/VLAN/image_vlan/11.png">
+
 # 4. VLAN Trunk
 # 5. Dynamic Trunking Protocol
