@@ -75,9 +75,13 @@
   - Header IEE 802.1Q có độ dài 4byte được tạo ra  
   -Khi tag được tạo ra , FSC phải được tính toàn lại 
   - Khi gửi tới điểm cuối tag này phải được xóa và FCS được tính toàn lại như lúc ban đầu 
-  
-| test | dis|
+
+| Truonwgf 802.1Q VLAN tag  | Function |
 |:---- |:---|
+|Type |2 byte , Với giá trị hex là 0x8100 , được dùng như 1 tag  Protacal ID|
+| Ưu tiên người dùng  |3 bit|
+| CFI |1 bit , có thể hỗ trợ token ring frame trong Ethernet |
+
 
 
 
