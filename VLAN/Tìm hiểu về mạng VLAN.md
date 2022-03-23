@@ -53,6 +53,33 @@
 
 <img src="/VLAN/image_vlan/4.png">
 
+- Địnhk nghĩa một VLAN trunks
+  - Đường trunks là một liên kết  điểm - điểm giwuax hai thiết bị  mạng 
+  - Các chức năng chính của Trunk cisco :
+    - Cho phép nhiều hơn 1 VLAN 
+    - Mở rộng VLAN trên toàn bộ mạng 
+    - Thoe mặc định , hỗ trợ tất cả các VLAN 
+    - Hỗ trợ 802.1Q trunking 
+
+<img src="/VLAN/image_vlan/5.png">
+
+  - Nếu không cấu hình VLAN , tất cả các thiết bị kết nối với switch sẽ nhật được tất cả các traffic unicast, multicast và brodcast
+
+<img src="/VLAN/image_vlan/6.png">
+
+  - Khi có VLAN , traffic unicast ,multicast and broardcast được giới hạn trong 1 VLAN . Nếu không có thiết bị Layer 3 để kết nối các VLAN với nhau , các thiết bị trong VLAN khác không thể giao tiếp .
+- Định nghĩa VLAN với 1 tag 
+
+<img src="/VLAN/image_vlan/7.png">
+
+  - Header IEE 802.1Q có độ dài 4byte được tạo ra  
+  -Khi tag được tạo ra , FSC phải được tính toàn lại 
+  - Khi gửi tới điểm cuối tag này phải được xóa và FCS được tính toàn lại như lúc ban đầu 
+| test | dis|
+|:---- |:---|
+
+
+
 # 3. Cấu hình VLAN
 # 4. VLAN Trunk
 # 5. Dynamic Trunking Protocol
