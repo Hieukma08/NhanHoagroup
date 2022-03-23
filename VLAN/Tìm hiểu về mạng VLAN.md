@@ -117,4 +117,32 @@
 
 
 # 4. VLAN Trunk
-# 5. Dynamic Trunking Protocol
+
+- Trunk ở layer2 và mang traffic cho tất cả các Vlan.
+
+- Câu lệnh cấu hình trunk
+
+
+
+- Ví dụ: Có mô hình :
+
+<img src="/VLAN/image_vlan/14.png"> 
+
+  - Subnet cho từng Vlan là: VLAN 10 - Faculty/Staff - 172.17.10.0/24 VLAN 20 - Students - 172.17.20.0/24 VLAN 30 - Guests - 172.17.30.0/24 VLAN 99 - Native - 172.17.99.0/24
+  - F0/1 được cấu hình làm trunk port
+
+<img src="/VLAN/image_vlan/15.png"> 
+
+- Để xác nhận cấu hình trunk, ta dùng câu lệnh : Show int fa0/1 switchport 
+
+<img src="/VLAN/image_vlan/16.png"> 
+
+- Trả về các giá trị:
+
+  - Đã bật switchport
+  - Admin mode đã bật
+  - Đã bật mode hoạt động cho trunk
+  - Đóng gói bằng dot1q
+  - Native Vlan là 99
+  - Tất cả Vlan được tạo trên Switch đều có thể traffic qua trunk này.
+- Để reset một trunk về cấu hình mặc định, ta dùng các câu lệnh:
