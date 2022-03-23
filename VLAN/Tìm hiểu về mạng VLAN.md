@@ -113,7 +113,7 @@
 
   - Bất khì vlan nào được tạo, ta đều có thể assign cho nó chính xác 1 interface.
 
-<img src="/VLAN/image_vlan/11.png">
+<img src="/VLAN/image_vlan/12.png">
 
 
 # 4. VLAN Trunk
