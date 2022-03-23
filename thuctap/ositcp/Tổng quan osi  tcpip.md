@@ -1,5 +1,6 @@
 Tìm hiểu hai mô hình mạng OSI và mô hình TCP/IP
 1.	Mô hình OSI
+
 •	Mô hình mạng OSI là 1 mô hình mô phỏng hoạt động của 1 hệ thống mạng gồm có 7 tầng làm việc với các chức năng khác nhau 
 •	Application Layer : Giao tiếp người và môi trường mạng .
 
