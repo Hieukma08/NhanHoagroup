@@ -1,5 +1,5 @@
 
-#3.	Tương quan giữa hai mô hình TCP/Ip và mô hình OSI 
+# 3.	Tương quan giữa hai mô hình TCP/Ip và mô hình OSI 
 
 •	Hai mô hình đề là các mô hình mạng mô phỏng lại cách thức hoạt động của các hệ thống mạng .
 

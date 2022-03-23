@@ -1,6 +1,6 @@
-#I.Tìm hiểu hai mô hình mạng OSI và mô hình TCP/IP
+# I.Tìm hiểu hai mô hình mạng OSI và mô hình TCP/IP
 
-#1.1 Mô hình OSI
+# 1.1 Mô hình OSI
 
 •	Mô hình mạng OSI là 1 mô hình mô phỏng hoạt động của 1 hệ thống mạng gồm có 7 tầng làm việc với các chức năng khác nhau 
 
@@ -18,7 +18,7 @@
 
 •	Physical Layer : Đảm bảo yêu cầu truyền nhận các chuỗi bit qua các phương tiện vật lí 
 
-#1.2 Mô hình TCP/IP
+# 1.2 Mô hình TCP/IP
 
 •	Mô hình TCP/IP cũng là một mô hình mô phỏng hại hoạt động của 1 hệ thống mạng và chức năng của từng tầng trong giao thức .
 
